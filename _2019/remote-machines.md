@@ -114,7 +114,7 @@ Host *.mit.edu
 ```
 
 
-An additional advantage of using the `~/.ssh/config` file over aliases  is that other programs like `scp`, `rsync`, `mosh`, &c are able to read it as well and convert the settings into the corresponding flags.
+An additional advantage of using the `~/.ssh/config` file over aliases is that other programs like `scp`, `rsync`, `mosh`, &c are able to read it as well and convert the settings into the corresponding flags.
 
 
 Note that the `~/.ssh/config` file can be considered a dotfile, and in general it is fine for it to be included with the rest of your dotfiles. However if you make it public, think about the information that you are potentially providing strangers on the internet: the addresses of your servers, the users you are using, the open ports, &c. This may facilitate some types of attacks so be thoughtful about sharing your SSH configuration.
