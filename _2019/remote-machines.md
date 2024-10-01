@@ -92,7 +92,7 @@ A common pain when connecting to a remote server are disconnections due to shutt
 
 Mosh is present in all common distributions and package managers. Mosh requires an ssh server to be working in the server. You do not need to be superuser to install mosh  but it does require that ports 60000 through 60010 to be open in the server (they usually are since they are not in the privileged range).
 
-A downside of `mosh` is that is does not support roaming port/graphics forwarding so if you use those often `mosh` won't be of much help.
+A downside of `mosh` is that it does not support roaming port/graphics forwarding, so if you use those often, `mosh` won't be of much help.
 
 ## SSH Configuration
 
